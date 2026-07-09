@@ -1,7 +1,5 @@
 
 /* Navbar Starts */
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -23,7 +21,6 @@ font-weight: bold;
 font-size: 32px;
 color:white;
 cursor: pointer;
-
 }
 
 .container{
@@ -68,18 +65,20 @@ ul li a{
 /* Navbar Ends */
 
 
-/* samiul-parent section */
+/* Banner Section starts */
 
 .hero-parent-root{
 background-color: #ede7e3;
+margin: 30px 40px 30px 40px;
+border-radius: 10px;
+padding: 25px;
+
 }
 
 .hero-parent{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
 }
 
 .hero-left h2{
@@ -105,7 +104,68 @@ color: #FD6E0A;
 cursor: pointer;
 }
 
-
 .hero-left-button-parent{
 margin-top: 12px;
 }
+
+/* Banner Section Ends */
+
+/* About Section Starts */
+.about-parent{
+    background-color: #ede7e3;
+    margin: 30px 40px 30px 40px;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+
+.about-parent p{
+    margin: 30px 0;
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.about-box-parent .box {
+    background-color: #ede7e3;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* About Section Ends */
+
+/* What i do section css */
+.what-i-do-parent {
+  margin: 30px 40px 30px 40px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 75px;
+  background-color: #ede7e3;
+}
+
+.what-i-do-card-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.what-i-do-card-container .what-i-do-card {
+  border: 2px solid #fd6e0a;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: left;
+}
+.what-i-do-card-container .what-i-do-card h2 {
+  margin: 10px 0;
+}
+.what-i-do-card-container .what-i-do-card p {
+  color: #757575;
+  font-size: 15px;
+}
+
+
+
+
+
